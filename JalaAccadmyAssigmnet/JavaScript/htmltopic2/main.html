@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>College Adimision From</title>
+</head>
+<body>
+    <p>. Design the web page using all the below input attributes
+        type =text, password, submit, reset, radio, checkbox, button,</p>
+        <p>HTML5 input Types
+            type=number, range, color, date, file, time, month, week, emai</p>
+            <p>Apply all of the below input restrictions
+                disabled, max, maxlength, min, readonly, required, size, value</p>
+                <p>Use I-frames and Marquee in your webpage.</p>
+                <p>Develop a web page using target attribute</p>
+    <h1>Information Collection</h1>
+
+    <div id="div">
+        <form id="from">
+            <fieldset id="personal">
+                <legend>Personal_details</legend>
+                <label for="fname" id="f1">First Name :</label>
+                <input type="text" name="fname" id="h" maxlength="50" placeholder="enter your name">
+                <br>
+                <label for="sname"id="f2">Second Name:</label>
+               <input type="text" name="sname" id="h" maxlength="50" placeholder="enter your name">
+                <br>
+                <label for="bod">Date Of Birth :</label>
+                <input type="date" name="bod" id="h">
+                <br>
+                <label for="genre"id="g" id="h">Gender :</label>
+                <input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female" id="">Female
+                <input type="radio" name="gender" value="other" id="">other
+    
+                <br>
+    
+                <label for="email"id="e">Email :</label>
+                <input type="email" name="email" id="email">
+                <br>
+                <label for="phone" style="margin: 5px;">Phone No :</label>
+                <input type="tel" name="phone" id="phone">
+               <br>
+               <label for="weblink">web site:</label>
+              <input type="url" name="weblink" id="wbl">
+              <br>
+              <label for="uname">userName</label>
+              <input type="text" name="uname" id="h" required>
+              <label for="psw">password :</label>
+              <input type="password" name="psw" id="psw" min="8",max="12">
+              <br>
+              <label for="photo">photo :</label>
+              <input type="image" name="photo" id="pts" >
+              <br>
+            <label for="click">click</label>
+              <input type="button" name="click">
+    
+            </fieldset>
+            <fieldset class="address">
+                <legend>Address</legend>
+                <label for="hno">H.No :</label>
+                 <input type="text" name="hno" id="h">
+                <br>
+                <label for="street">Stret :</label>
+                <input type="text" name="street" id="h">
+                <br>
+                <label for="street">city :</label>
+                <input type="text"name="street" id="h">
+                <br>
+                <label for="State">State :</label>
+                <input type="text" name="State" id="h">
+                <label for="pcode" id="pc">postal Code :</label>
+                 <input type="number" name="pcode" id="h">
+    
+    
+            </fieldset>
+            <fieldset class="education">
+                <legend>Education Details</legend>
+                 <label for="scname">School Name(SSC) :</label>
+                 <input type="text" name="scname" id="h">
+                 <br>
+                 <label for="psy"> pass of Year:</label>
+                 <input type="datetime" name="psy" id="h">
+                 <br>
+                 <label for="cname">College Name :</label>
+                 <input type="text" name="cname" id="h">
+                 <label for="psy1"> pass of year :</label>
+                 <input type="date" name="psy1" id="h">
+    <br>
+    <label for="file">Documentation :</label>
+    <input type="file" name="file" id="h">
+    
+            </fieldset>
+            <fieldset class="hobbies">
+                <legend>Hobbies</legend>
+                <label for="game">Game :</label>
+                <input type="checkbox"name="game"> chess
+                <input type="checkbox"name="game"> cricaket
+                <input type="checkbox" name="game" id=""> other
+                <br>
+                
+              <label for="fcolor">like color :</label>
+              <input type="color" name="fcolor" id="h">
+              <br>
+              <label for="val">volume pich:</label>
+              <input type="range" name="val" value="1" id="h">
+               
+            </fieldset>
+          
+            <fieldset class="p_del">
+            <legend>parent_details</legend>
+            <label for="ftname" id="h">Father Name :</label>
+            <input type="text" name="ftname" id="h" size="20">
+            <br>
+           <label for="fp" id="h">Profiction :</label>
+           <input type="text" name="fp" id="h">
+           <br>
+           <label for="ph" id="h">phone No:</label>
+           <input type="tel" name="ph" id="h">
+           <br>
+            <label for="mname" id="h">Mother Name :</label>
+            <input type="text" name="mname" id="h">
+            <br>
+           <label for="fp" id="h">Profiction :</label>
+           <input type="text" name="fp" id="h">
+           <br>
+           <label for="ph" id="h">phone No:</label>
+           <input type="tel" name="ph" id="h">
+           <br>
+         </fieldset>
+            
+         <fieldset class="end">
+            <label for="ti">time :</label>
+            <input type="time" name="tm">
+
+            <label for="mn">moth</label>
+            <input type="month" name="mn" id="h">
+            <br>
+            <label for="wk">week:</label>
+            <input type="week" name="wk" id="h">
+<br>
+<label for="qn">rank</label>
+<input type="number" name="qn" id="h" min="1" max="5">
+
+
+<br>
+
+<label for="clname"> Name:</label>
+<input type="text" value="JALAAcadmay" name="clname" id="h" readonly>
+<br>
+<a href="https://jalaacademy.com/" target="_self">link</a>
+
+            <input type="reset" id="re">
+            <input type="submit" id="su"disabled>
+    
+         </fieldset>
+        </form>
+    </div>
+    <iframe src="https://jalaacademy.com/" frameborder="2">website</iframe>
+    <marquee behavior="alternate" direction="down">marquee</marquee>
+   
+</body>
+</html>
+<script>
+    document.getElementById("psw").addEventListener('keyup',(e)=>{
+        document.getElementById("su").style.visibility='visible';
+    });
+</script>

@@ -1,0 +1,25 @@
+
+
+body{
+    background-color:rgb(177, 223, 108);
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+tr,td{
+    border: 1px solid black;
+    
+}
+
+table.b{
+    table-layout: fixed;
+    width: 180px;
+}
+table.c{
+    table-layout: auto;
+    width: 100%;
+    text-align: center;
+}

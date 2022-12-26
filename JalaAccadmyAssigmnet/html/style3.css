@@ -1,0 +1,57 @@
+/* comment in css */
+
+
+#d1{
+    width:800px;
+    height: 200px;
+    text-align:center;
+font-style: oblique;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    border: 2px solid red;
+}
+#d2{
+    margin:  50px;
+    width:400px;
+    height: 200px;
+    text-align: justify;
+    border: 2px dotted blue;
+    font-style: italic;
+    font-weight: 100;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+#d3{
+    margin:  50px;
+    width:500px;
+    height: 200px;
+    text-align: center;
+    border: 2px dashed blue;
+    font-style: Serif;
+    font-weight: 100;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+#d4{
+    margin:  50px;
+    width:400px;
+    height: 200px;
+    text-align: end;
+    border: 5px double goldenrod;
+    font-style: Cursive;
+    font-weight: 100;
+    border-radius: 10%;
+font-family:Arial, Helvetica, sans-serif;
+   
+}
+#div5{
+    margin:  50px;
+    width:40%;
+    height: 40%;
+    text-align: center;
+    border: 4px ridge rgb(58, 206, 144);
+  font-style: italic;
+  font: 1em sans-serif;
+    border-radius: 15%;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}

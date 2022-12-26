@@ -1,0 +1,7 @@
+html{
+    scroll-behavior:smooth;
+}
+body{
+    background-color: antiquewhite;
+    font: 14px/2 Georgia, serif;
+}

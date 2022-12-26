@@ -1,0 +1,42 @@
+#d1{
+background-color: brown;
+    width: 200px;
+    height: 200px;
+    border: 1px solid royalblue;
+color: #fff;
+    text-align: center;
+    margin: 20px;
+}
+#d2{
+    background-color: rgb(212, 116, 116);
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(15, 30, 77);
+color: #fff;
+    text-align: center;
+    margin: 30px;
+
+
+}
+#d4{
+    background-color: rgb(102, 82, 82);
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(185, 137, 47);
+color: #fff;
+    text-align: center;
+    margin: 40px;
+    padding: 50px;
+
+
+}
+#d3{
+    background-color: rgb(74, 216, 121);
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(185, 137, 47);
+color: #fff;
+    text-align: center;
+   
+    padding: 50px;
+}

@@ -1,0 +1,20 @@
+body{
+    scroll-behavior: smooth;
+    background-color: rgb(230, 165, 87);
+}
+.a{
+    
+    list-style-type: circle;
+    list-style-position: inside;
+    list-style-image: none;
+}
+.b{
+    list-style-type: lower-alpha;
+    list-style-position: outside;
+}
+.c{
+    list-style:lower-roman
+}
+.d{
+    list-style: upper-alpha;
+}

@@ -1,0 +1,118 @@
+
+body{
+    background-color: blanchedalmond;
+}
+#div{
+    
+    margin: 5%;
+    border: 2px solid #f05f0b;
+   
+}
+h1{
+    color: blue;
+    text-align: center;
+}
+#personal{
+    width: 50%;
+   margin: 20px 20% ;
+    border: 2px solid black;
+    text-align: center;
+   
+}
+#from{
+    width: 100%;
+  
+}
+#fname{
+
+margin: 10px 50px 10px 40px ;
+padding: 4px;
+}
+
+#sname{
+    
+    padding: 4px;
+}
+#bod{
+    margin: 10px 50px 10px 40px ;
+    padding: 4px;
+}
+#g{
+    margin: 10px 10px 10px 40px;
+    padding: auto;
+}
+#email{
+    margin: 10px 30px 10px 40px ;
+    padding: 4px; 
+}
+#phone{
+    margin: 10px 20px 10px 40px ;
+    padding: 4px; 
+}
+#e{
+    margin: 20px;
+}
+#psw{
+    margin: 20px;
+    padding: 4px;
+}
+#wbl{
+    margin: 30px;
+    padding: 4px;
+}
+#pts{
+    margin: 10px;
+    
+}
+.address{
+    width: 50%;
+    
+    margin: 20px 20% ;
+    border: 2px solid black;
+
+}
+
+#h{
+    margin: 10px;
+    padding: 4px;
+}
+#pc{
+    margin-left: 30px;
+}
+
+.hobbies{
+    width: 50%;
+    margin: 10px;
+    margin: 20px 20% ;
+     border: 2px solid black;
+}
+.p_del{
+    width: 50%;
+    margin: 20px 20%;
+    
+     border: 2px solid black;
+}
+.end{
+    width: 50%;
+    margin: 20px 20%;
+    
+     border: 2px solid black;
+}
+#re{
+    margin: 15px;
+    padding: 4px;
+ 
+
+}
+#su{
+    margin: 20px;
+   float: right;
+   padding: 4px;
+}
+.education{
+    width: 50%;
+   margin: 20px 20%;
+   
+
+    border: 2px solid black;
+}
